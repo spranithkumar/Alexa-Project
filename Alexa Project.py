@@ -64,10 +64,10 @@ try:
             print(time)
             speek(time)
         elif: 'joke' in question:
-            pyjocks.get_joke(
+            pyjocks.get_joke()
             print(joke)
-                speek(joke)
-            )
+            speek(joke)
+            
 
     else:
         print('you are not talking with me please carry on')
